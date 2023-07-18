@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Selfish Burger 喀漢堡",
+    "img": "",
+    "rate": 4.8,
+    "commentCount": 239,
+    "priceRange": [
+      400,
+      800
+    ],
+    "distance": 200,
+    "categoryType": 1
+  },
+  {
+    "name": "Italiano's Trattoria 義大利小館",
+    "img": "",
+    "rate": 4.6,
+    "commentCount": 20,
+    "priceRange": [
+      500,
+      1000
+    ],
+    "distance": 500,
+    "categoryType": 6
+  }
+]
