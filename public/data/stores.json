@@ -1,7 +1,8 @@
 [
   {
+    "id": 1,
     "name": "Selfish Burger 喀漢堡",
-    "img": "",
+    "img": "images/restaurant/r01.png",
     "rate": 4.8,
     "commentCount": 239,
     "priceRange": [
@@ -9,11 +10,12 @@
       800
     ],
     "distance": 200,
-    "categoryType": 1
+    "cuisineType": 1
   },
   {
+    "id": 2,
     "name": "Italiano's Trattoria 義大利小館",
-    "img": "",
+    "img": "images/restaurant/r02.png",
     "rate": 4.6,
     "commentCount": 20,
     "priceRange": [
@@ -21,6 +23,97 @@
       1000
     ],
     "distance": 500,
-    "categoryType": 6
+    "cuisineType": 6
+  },
+  {
+    "id": 3,
+    "name": "The Grilled Cheese Co. 烤芝士餐廳",
+    "img": "images/restaurant/r03.png",
+    "rate": 4,
+    "commentCount": 1150,
+    "priceRange": [
+      300,
+      600
+    ],
+    "distance": 600,
+    "cuisineType": 1
+  },
+  {
+    "id": 4,
+    "name": "The Garden Cafe 後花園",
+    "img": "images/restaurant/r04.png",
+    "rate": 4.8,
+    "commentCount": 368,
+    "priceRange": [
+      200,
+      600
+    ],
+    "distance": 800,
+    "cuisineType": 4
+  },
+  {
+    "id": 5,
+    "name": "Taste of Peru 秘魯風味",
+    "img": "images/restaurant/r05.png",
+    "rate": 4.2,
+    "commentCount": 112,
+    "priceRange": [
+      500,
+      1000
+    ],
+    "distance": 1200,
+    "cuisineType": 1
+  },
+  {
+    "id": 6,
+    "name": "Urban Spice Kitchen 都市香料廚房",
+    "img": "images/restaurant/r06.png",
+    "rate": 4.8,
+    "commentCount": 368,
+    "priceRange": [
+      200,
+      600
+    ],
+    "distance": 800,
+    "cuisineType": 5
+  },
+  {
+    "id": 7,
+    "name": "Noodle House 麵屋",
+    "img": "images/restaurant/r07.png",
+    "rate": 5,
+    "commentCount": 3,
+    "priceRange": [
+      100,
+      300
+    ],
+    "distance": 1500,
+    "cuisineType": 7
+  },
+  {
+    "id": 8,
+    "name": "Fisherman's Catch 漁夫海產店",
+    "img": "images/restaurant/r08.png",
+    "rate": 4.8,
+    "commentCount": 108,
+    "priceRange": [
+      400,
+      800
+    ],
+    "distance": 1600,
+    "cuisineType": 2
+  },
+  {
+    "id": 9,
+    "name": "The Green Table 綠色餐桌",
+    "img": "images/restaurant/r09.png",
+    "rate": 4.2,
+    "commentCount": 60,
+    "priceRange": [
+      300,
+      600
+    ],
+    "distance": 1800,
+    "cuisineType": 9
   }
 ]

@@ -2,12 +2,23 @@ import { useEffect, useState } from "react";
 import { Button, CuisineCategory, Header, Footer, Icon, RestaurantList, SearchBanner } from "../components";
 export const Home = () => {
   const [stores, setStores] = useState([]);
+  const [filteredStores, setFilteredStores] = useState([]);
 
   const fetchStore = async () => {
     const response = await fetch("data/stores.json");
     const data = await response.json();
-    console.log(data);
+    setStores(data);
+    setFilteredStores(data);
   }
+
+  const handleCategory = (id) => {
+    if (id === 0) {
+      setFilteredStores(stores);
+    } else {
+      const filtered = stores.filter((store) => store.cuisineType === id);
+      setFilteredStores(filtered);
+    }
+  };
 
   useEffect(() => {
     fetchStore();
@@ -19,7 +30,7 @@ export const Home = () => {
       <div className="flex-grow">
         <SearchBanner />
         <div className="container mx-auto">
-          <CuisineCategory />
+          <CuisineCategory onClick={(id) => handleCategory(id)} />
           <h3 className="font-bold text-xl">請選擇喜歡的餐廳</h3>
           <p className="font-light mt-2">找到
             <strong className="mx-1 font-bold">258</strong>
@@ -28,7 +39,7 @@ export const Home = () => {
             的
             <strong className="mx-1 font-bold">美式餐廳</strong>
           </p>
-          <div className="space-x-2 mt-4">
+          <div className="space-x-2 mt-4 mb-8">
             <Button color="white" variant="outlined">
               排序
               <span className="text-gray-400 ml-2">熱門</span>
@@ -50,7 +61,7 @@ export const Home = () => {
               <Icon name="chevronDown" className="ml-2" />
             </Button>
           </div>
-          <RestaurantList data={stores} />
+          <RestaurantList data={filteredStores} />
         </div>
       </div>
       <Footer />

@@ -6,6 +6,7 @@ import { Icon } from "./Icon";
 import { Input } from "./Input";
 import { RestaurantList } from "./RestaurantList";
 import { SearchBanner } from "./SearchBanner";
+import { Tag } from "./Tag";
 
 export {
   Button,
@@ -16,4 +17,5 @@ export {
   Input,
   RestaurantList,
   SearchBanner,
+  Tag,
 };

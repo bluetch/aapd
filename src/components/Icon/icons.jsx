@@ -6,6 +6,7 @@ import { ReactComponent as location } from "assets/icons/location.svg";
 import { ReactComponent as menu } from "assets/icons/menu.svg";
 import { ReactComponent as restaurant } from "assets/icons/restaurant.svg";
 import { ReactComponent as search } from "assets/icons/search.svg";
+import { ReactComponent as star } from "assets/icons/star.svg";
 import { ReactComponent as thumbUp } from "assets/icons/thumb_up.svg";
 
 const ICONS = {
@@ -17,6 +18,7 @@ const ICONS = {
   menu,
   restaurant,
   search,
+  star,
   thumbUp,
 }
 
