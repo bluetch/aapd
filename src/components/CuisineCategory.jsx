@@ -10,11 +10,11 @@ export const CuisineCategory = ({ onClick = () => { } }) => {
             className="flex flex-col items-center group cursor-pointer"
             onClick={() => onClick(category.id)}
           >
-            <div className="rounded-full overflow-hidden border p-4 group-hover:border-orange-500 group-hover:bg-orange-50">
+            <div className="transition-all rounded-full overflow-hidden border p-4 group-hover:border-orange-500 group-hover:bg-orange-50">
               <img
                 src={category.img}
                 alt={category.name}
-                className="w-10 h-10 object-fit"
+                className="w-10 h-10 object-contain group-hover:scale-110"
               />
             </div>
             <p className="text-sm mt-2 group-hover:text-orange-500">{category.name}</p>

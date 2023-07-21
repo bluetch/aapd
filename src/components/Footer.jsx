@@ -1,9 +1,7 @@
-import { Link } from "react-router-dom";
-
 export const Footer = () => {
   return (
-    <footer className="flex justify-between px-10 pt-20 border-t">
-      footer
+    <footer className="px-10 py-8 border-t mt-12">
+      <p className="text-gray-400 text-right text-sm">Copyright © 2023 AAPD好時光</p>
     </footer>
   );
 }

@@ -115,5 +115,44 @@
     ],
     "distance": 1800,
     "cuisineType": 9
+  },
+  {
+    "id": 10,
+    "name": "浩克食堂",
+    "img": "images/restaurant/r10.jpg",
+    "rate": 3.9,
+    "commentCount": 33,
+    "priceRange": [
+      100,
+      300
+    ],
+    "distance": 800,
+    "cuisineType": 2
+  },
+  {
+    "id": 11,
+    "name": "喜歡你飯捲·年糕",
+    "img": "images/restaurant/r11.jpg",
+    "rate": 4.1,
+    "commentCount": 451,
+    "priceRange": [
+      80,
+      300
+    ],
+    "distance": 500,
+    "cuisineType": 3
+  },
+  {
+    "id": 12,
+    "name": "阿泰鐵板燒",
+    "img": "images/restaurant/r12.jpg",
+    "rate": 4.3,
+    "commentCount": 631,
+    "priceRange": [
+      400,
+      800
+    ],
+    "distance": 1600,
+    "cuisineType": 8
   }
 ]
